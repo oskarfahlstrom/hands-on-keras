@@ -1,9 +1,9 @@
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 
 
 def inspect_model(model_path):
     """Inspect the input shape and supported gestures of a Keras model."""
-    model = load_model(model_path, compile=False)
+    model = tf.keras.models.load_model(model_path, compile=False)
     
     # check input shape
     input_shape = model.input_shape
