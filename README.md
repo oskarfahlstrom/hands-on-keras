@@ -18,4 +18,4 @@ This project uses TensorFlow and Keras to implement a real-time hand recognition
 ## 📋 Requirements
 To run the project install dependencies via:
 ```bash
-pip install -r setup.py
+pip install -r requirements.txt
