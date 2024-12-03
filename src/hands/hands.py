@@ -47,7 +47,7 @@ def run(cam_feed: int = 0):
 
         cv2.imshow("Hand Gesture Recognition", img)
 
-        if cv2.waitKey(1) != -1:  # Exit on any key press
+        if cv2.waitKey(1) != -1:  # exit on any key press
             break
 
     # cleanup
